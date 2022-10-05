@@ -8,11 +8,9 @@
 
 import unittest
 
-from dictdiffer import patch
 from dictdiffer.conflict import Conflict
-from dictdiffer.merge import Merger
 from dictdiffer.unify import Unifier
-from dictdiffer.utils import WildcardDict, nested_hash
+from dictdiffer.utils import nested_hash
 
 
 class TestUnifier(unittest.TestCase):
